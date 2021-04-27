@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T08:36:48.661Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="rUgDdUitEHqSJJuJFpJb" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T08:40:45.034Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="KdyGlBST69T6kWApJUc7" version="14.6.6" type="github">
   <diagram id="8cNXlBiLXLBAkxZQb8D8" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,6 +279,54 @@
         </mxCell>
         <mxCell id="ihgOOm5gKKsvJmpZFbWJ-70" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-67">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-73" value="purchase_order_refund_address(售后地址表)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-209" width="380" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-76" value="+ purchase_order_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-73">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-77" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-73">
+          <mxGeometry y="52" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-78" value="purchase_order_refund_image(售后图片表)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-78" width="360" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-79" value="+ purchase_order_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-78">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-82" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-78">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-83" value="purchase_order_refund_logistics(售后表)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="340" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-86" value="+ purchase_order_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-83">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-87" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-83">
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-88" value="purchase_order_refund_open(售后开放平台对接映射表)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="460" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-91" value="+ purchase_order_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-88">
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-93" value="+ out_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-88">
+          <mxGeometry y="52" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-92" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-88">
+          <mxGeometry y="78" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-94" value="purchase_order_refund_track(售后处理明细)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="460" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-95" value="+ purchase_order_refund_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-94">
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ihgOOm5gKKsvJmpZFbWJ-97" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ihgOOm5gKKsvJmpZFbWJ-94">
+          <mxGeometry y="52" width="460" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
