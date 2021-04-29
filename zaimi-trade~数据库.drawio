@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T09:09:41.734Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="8tc9mhMNuXl0MIi6rG4t" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T09:15:52.060Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="pTOSc14gTI7BcsZBSlWx" version="14.6.6" type="github">
   <diagram id="8cNXlBiLXLBAkxZQb8D8" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-34" value="物流" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#0000CC;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="380" height="530" as="geometry" />
+        </mxCell>
         <mxCell id="ihgOOm5gKKsvJmpZFbWJ-121" value="采购单发货" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=18;align=left;strokeColor=#0000CC;width=97;height=36;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="1603.25" y="-526" width="513.5" height="316" as="geometry" />
         </mxCell>
@@ -207,7 +210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ihgOOm5gKKsvJmpZFbWJ-133" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelBackgroundColor=none;fontSize=18;fontColor=#FF0000;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="345" width="30" height="30" as="geometry" />
+          <mxGeometry x="1260" y="345" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ihgOOm5gKKsvJmpZFbWJ-134" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=18;fontColor=#FF0000;" parent="1" source="ihgOOm5gKKsvJmpZFbWJ-133" target="ihgOOm5gKKsvJmpZFbWJ-123" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -324,6 +327,55 @@
             <Array as="points">
               <mxPoint x="2190" y="705" />
               <mxPoint x="2190" y="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-16" value="logistics_company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="228" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-17" value="+ logistics_channel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-16">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-19" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-16">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-20" value="物流轨迹" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="516" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-21" value="+ logistics_channel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-20">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-22" value="+ logistics_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-20">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-29" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-20">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-24" value="logistics（物流公司）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="348" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-25" value="+ logistics_channel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-24">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-28" value="+ logistics_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-24">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-26" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VemQdVgCqKe6KZT4vhwg-24">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VemQdVgCqKe6KZT4vhwg-21" target="VemQdVgCqKe6KZT4vhwg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="555" />
+              <mxPoint x="340" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VemQdVgCqKe6KZT4vhwg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VemQdVgCqKe6KZT4vhwg-22" target="VemQdVgCqKe6KZT4vhwg-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="581" />
+              <mxPoint x="370" y="413" />
             </Array>
           </mxGeometry>
         </mxCell>
