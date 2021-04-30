@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T08:33:55.354Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="e-O4D8jWyHBJ0Ep4JWwM" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-30T08:34:35.678Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="rksctdK9UQNZbgfunBGV" version="14.6.6" type="github">
   <diagram id="8cNXlBiLXLBAkxZQb8D8" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PSnNEIr_YmE9VNYy7DB6-41" value="account_distribution_income(用户分销收益)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="1459" width="300" height="78" as="geometry" />
+          <mxGeometry x="-240" y="1420" width="300" height="78" as="geometry" />
         </mxCell>
         <mxCell id="PSnNEIr_YmE9VNYy7DB6-42" value="+ account_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PSnNEIr_YmE9VNYy7DB6-41">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -323,6 +323,9 @@
         </mxCell>
         <mxCell id="PSnNEIr_YmE9VNYy7DB6-48" value="……" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PSnNEIr_YmE9VNYy7DB6-45">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PSnNEIr_YmE9VNYy7DB6-51" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;说明：saas系统中&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="2140" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
