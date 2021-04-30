@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T09:29:35.776Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="CyDU_d5G0iRHymPC1Fr6" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-30T02:07:06.634Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="OFnGqSkr9AIY24WUnnsj" version="14.6.6" type="github">
   <diagram id="8cNXlBiLXLBAkxZQb8D8" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
           <mxGeometry x="530" y="40" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="78lRP6di_E0o8tFX1qry-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 51 , 255)&quot;&gt;说明：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 51 , 255)&quot;&gt;1.&amp;nbsp;marketing_tool存储营销工具基本信息&lt;br&gt;2. saas_marketing_tool存储营销工具和saas的关系，&lt;br&gt;&amp;nbsp; &amp;nbsp;以及改saas是否开启此营销工具&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;3.&amp;nbsp;store_marketing_tool存储营销工具和store的关系，&lt;br&gt;&amp;nbsp; &amp;nbsp;以及改store是否开启此营销工具，store某个营销工具&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp;是否开启的最终结果需要结合marketing_tool，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp;saas_marketing_tool，以及store_marketing_tool三&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp;张表的状态来判断&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="690" width="450" height="150" as="geometry" />
+          <mxGeometry x="430" y="710" width="450" height="150" as="geometry" />
         </mxCell>
         <mxCell id="78lRP6di_E0o8tFX1qry-20" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;saas开放平台订单&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1060" y="40" width="160" height="20" as="geometry" />
@@ -184,18 +184,18 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78lRP6di_E0o8tFX1qry-26" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 51 , 255)&quot;&gt;说明：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 51 , 255)&quot;&gt;1.&amp;nbsp;外部生成的订单通过same_batch_number和saas的一&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 51 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; 个或者多个订单进行关联，&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;表中现有的order_id字段&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;已&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 255) ; font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; 经废弃&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="349" width="460" height="70" as="geometry" />
+          <mxGeometry x="1060" y="349" width="460" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="i8r9v-NDTMNt73W6e1mo-1" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="i8r9v-NDTMNt73W6e1mo-1" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-150" y="1310" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="i8r9v-NDTMNt73W6e1mo-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i8r9v-NDTMNt73W6e1mo-1">
+        <mxCell id="i8r9v-NDTMNt73W6e1mo-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i8r9v-NDTMNt73W6e1mo-1" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i8r9v-NDTMNt73W6e1mo-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i8r9v-NDTMNt73W6e1mo-1">
+        <mxCell id="i8r9v-NDTMNt73W6e1mo-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i8r9v-NDTMNt73W6e1mo-1" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i8r9v-NDTMNt73W6e1mo-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i8r9v-NDTMNt73W6e1mo-1">
+        <mxCell id="i8r9v-NDTMNt73W6e1mo-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i8r9v-NDTMNt73W6e1mo-1" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
